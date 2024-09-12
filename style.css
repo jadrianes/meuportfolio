@@ -1,0 +1,30 @@
+.menu {
+  background-color: rgb(138, 34, 34);
+}
+.menu {
+  color: white;
+}
+.fundo-principal {
+  background-color:#EDEAEA;
+}
+.rodape {
+  background-color: rgb(138, 34, 34)
+}
+.rodape {
+  color: white;
+}
+.titulo {
+  color:rgb(138, 34, 34) ;
+  font-size: 36px;
+  font-weight: 700;
+}
+.subtitulo {
+  font-size: 24px;
+  font-weight: 700;
+}
+body {
+  font-family: "open sans";
+}
+p {
+  line-height: 22.4px;
+}
