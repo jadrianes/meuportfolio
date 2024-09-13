@@ -1,18 +1,30 @@
-.menu {
+body, nav, main {
+  margin: 0;
+  padding: 0;
+  font-family: "open sans";
+}
+.menu ul {
   background-color: rgb(138, 34, 34);
+  margin: 0;
+  padding: 30px 0;
+  list-style-type: none; /* tira estilo de lista*/
+  text-align: end; /* coloca os itens no fim da pagina*/
 }
-.menu {
+.menu ul li{
+  display: inline-block;
+  margin: 0 20px;
+}
+.menu ul li a {
+  text-decoration: none;
   color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
-.fundo-principal {
-  background-color:#EDEAEA;
+.minha-imagem {
+  width: 200px;
+  border-radius: 10px;
 }
-.rodape {
-  background-color: rgb(138, 34, 34)
-}
-.rodape {
-  color: white;
-}
+
 .titulo {
   color:rgb(138, 34, 34) ;
   font-size: 36px;
@@ -22,9 +34,23 @@
   font-size: 24px;
   font-weight: 700;
 }
-body {
-  font-family: "open sans";
+.fundo-principal {
+  padding-top: 0;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  background-color:#EDEAEA;
+}
+#sobre {
+  padding: 50px;
+  max-width: 600px;
 }
 p {
   line-height: 22.4px;
+}
+.rodape {
+  background-color: rgb(138, 34, 34)
+}
+.rodape {
+  color: white;
 }
