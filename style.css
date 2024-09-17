@@ -22,9 +22,9 @@ body, nav, main {
 }
 .minha-imagem {
   width: 200px;
-  border-radius: 10px;
+  border-radius: 20%;
+  margin-top: 20px;
 }
-
 .titulo {
   color:rgb(138, 34, 34) ;
   font-size: 36px;
@@ -36,21 +36,77 @@ body, nav, main {
 }
 .fundo-principal {
   padding-top: 0;
-  text-align: center;
-  align-items: center;
   display: flex;
-  background-color:#EDEAEA;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #EDEAEA;
 }
 #sobre {
   padding: 50px;
   max-width: 600px;
 }
-p {
-  line-height: 22.4px;
+#historias {
+  background-color: #fff;
+  padding: 30px 80px;
 }
-.rodape {
+
+.titulo_historias {
+  color:rgb(138, 34, 34);
+  font-size: 30px;
+}
+
+.conteudo_historias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info_historias {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+#streetphotography {
+  padding: 30px 80px;
+  background-color:#EDEAEA;
+}
+
+.titulo_street {
+  color:rgb(138, 34, 34);
+  font-size: 30px;
+}
+
+.conteudo_street {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info_street {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#rodape {
+  color: white;
+  padding: 38px;
   background-color: rgb(138, 34, 34)
 }
-.rodape {
+.rodape_item span a {
   color: white;
+}
+.rodape_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.rodape_icon {
+  width: 25px;
+  margin-right: 10px;
 }
